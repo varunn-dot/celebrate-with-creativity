@@ -167,7 +167,7 @@ function App() {
             </div>
             <div className="relative overflow-hidden rounded-[1.7rem] border-[5px] border-white bg-white shadow-soft sm:rounded-[2rem] sm:border-[7px]">
               <img
-                src="/festival-promo.jpg"
+                src={`${import.meta.env.BASE_URL}festival-promo.jpg`}
                 alt="Smiling woman in a cream and gold saree with a maroon blouse, in a warm festive Diwali setting"
                 className="h-auto w-full object-cover"
                 fetchPriority="high"
